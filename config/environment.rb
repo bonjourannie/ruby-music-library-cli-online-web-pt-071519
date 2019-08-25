@@ -3,5 +3,5 @@ Bundler.require
 
 module Concerns
 end
-require_relative('path_here')
+require_relative('findable')
 require_all 'lib'
