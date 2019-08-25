@@ -6,6 +6,8 @@ class MusicLibraryController
   
   def call 
     input = ""
+    
+    puts "Welcome to your music library!"
   end
   
 end
