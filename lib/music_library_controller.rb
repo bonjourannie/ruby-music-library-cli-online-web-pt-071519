@@ -5,7 +5,8 @@ class MusicLibraryController
   end
   
   def call 
-    
+     = "./db/mp3s")
+    MusicImporter.new(path).import
   end
   
 end
